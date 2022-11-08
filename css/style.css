@@ -69,8 +69,8 @@ form
   #main > article {
     flex: 1;
   }
-  #main > article video {
-    width: 100%;
+  .card video {
+    width: 60%;
     margin-bottom: 40px;
 		 object-fit: fill;
   }
@@ -303,6 +303,8 @@ form
 		padding: 50px;
 	}
 
+
+/* dublicate */
 	.recent_products li{
 		padding: 10px;
 		list-style: none;
@@ -314,3 +316,74 @@ form
 		width: 100%;
 		height: auto;
 	}
+
+  /* dublicae ends */
+
+/* Header/Blog Title */
+.headerinner {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  list-style: none;
+}
+
+
+.fakeimg a img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.innfooter {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+	
