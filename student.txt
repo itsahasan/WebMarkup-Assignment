@@ -1,6 +1,6 @@
 o Student name: Ahasanul Rabbi Khan
 o Student number: 697424
 o Student class: IT1D
-o URL student GitHub website: 
+o URL student GitHub website: https://itsahasan.github.io/WebMarkup-Assignment
 o URL student GitHub repository: https://github.com/itsahasan/WebMarkup-Assignment
 # WebMarkup-Assignment
